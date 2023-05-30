@@ -16,7 +16,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
+// Not using https
+// app.UseHttpsRedirection();
 
 app.UseAuthorization();
 
